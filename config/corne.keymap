@@ -9,6 +9,10 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+/ {
+    chosen {
+        zmk,physical-layout = &foostan_corne_5col_layout;
+    };
     behaviors {
         HMR: HMR {
             compatible = "zmk,behavior-hold-tap";
